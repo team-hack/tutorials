@@ -9,3 +9,4 @@ Hey everyone, we get a lot of questions about crypto coins. I thought I'd make a
 - Bitcoin [BTC](linktosomewhere)
 - Litecoin [LTC](link.co)
 - Ether [ETH](link.com)
+- Ripple [XRP](xrp.com)
