@@ -6,6 +6,6 @@ Hey everyone, we get a lot of questions about crypto coins. I thought I'd make a
 
 ## Types of Coins
 
-- [Bitcoin](linktosomewhere)
-- Litecoin
-    - Ether -ETH
+- Bitcoin [BTC](linktosomewhere)
+- Litecoin [LTC](link.co)
+- Ether [ETH](link.com)
