@@ -8,4 +8,4 @@ Hey everyone, we get a lot of questions about crypto coins. I thought I'd make a
 
 - [Bitcoin](linktosomewhere)
 - Litecoin
-- Ether
+    - Ether -ETH
