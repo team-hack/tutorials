@@ -64,7 +64,7 @@ In this tutorial, I'm going to devide the algos by the preffered computing power
 
 ### CPU Mining
 
-When Bitcoin was first released, you could mine 100 coins a day using just your CPU. Unfortunately, today it’s impossible to mine Bitcoin with your CPU due to the ASICs we discussed earlier. 
+When Bitcoin was first released, you could mine 100 coins a day using just your CPU. Unfortunately, today it’s impossible to mine Bitcoin with your CPU due to the ASICs specially designed and built to solve Bitcoin's algorithm. 
 CPUs have fewer arithmetic logic units, circuits that perform arithmetic operations, and thus are relatively slow when it comes to performing large amounts of calculations.
 
 However, there are a ton of algorhitms that are designed specifically for CPU mining and are usualy configured to run memory bound hashing algorithms that “rely on random access to slow memory.” Since this isn't the most efficient problem solving methodology, this generally means that GPUs and ASICs are as effective as CPUs but due to their significantly higher power consumption they are not profitable.
