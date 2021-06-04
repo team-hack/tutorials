@@ -73,5 +73,6 @@ Sometimes the CPU algorhitm solving capabilities are bolstered by configuring bl
 
 #### CPU Mineable Algorhitms
 
+A5A
 ### GPU Mining
 
