@@ -52,6 +52,14 @@ A hybrid consensus starts with having PoW miners to create new blocks containing
 
 Hybrid blockchains are slowly starting to drop out of flavor due to the double dependencies, one being on the miner with the most computing power, and one being the stakers with the biggest stakes or the eldest wallets on the chain. This could easily translate to early adopters of that blockchain having superior positioning over new participants. That does mean that this consensus mechanism is less succeptable to 51% attacks and eliminates the possibility of hash power monopoly to a great extent and ensures the security of the network.
 
+### Proof Of Capacity (Plotting)
+
+Proof of Space is a cryptographic technique where provers show that they allocate unused hard drive space for storage space. In order to be used as a consensus method, Proof of Space must be tied to Proof of Time. PoT ensures that block times have consistency in the time between them and increases the overall security of the blockchain.
+
+Proof of time is implemented by a Verifiable Delay Function that takes a certain amount of time to compute, but is very fast to verify. The key idea of a VDF is that they require sequential computation, and since having many parallel machines does not yield any benefit, electricity waste is minimized.
+
+The operation of combining space and time verification makes up to be the proof-of-Capacity protocol. This two-step process is also known as plotting. This consensus technique is currently used by [Chia](https://www.chia.net/), and is still considered as a proof of work method by the vast majority of the crypto community.
+
 ## Mining
 
 Mining is widely known in cryptocurrency as the Proof of Work (PoW) decentralized consensus mechanism for validating transactions and creating new blocks on the blockchain.
@@ -104,14 +112,6 @@ The old generation ASIC miners are quickly decommissioned and become unprofitabl
 These did cost a lot of money to be acquired and owners tend to run those to the point of having them break down, and then disposing them. This is somewhat of an answer to why blockchains like the one of [StrongHands](https://www.stronghands.info/), coins with practically no value, are still among the most secure networks in the blockchain realm.
 
 #### Algorhitms for ASIC mining
-
-### Proof Of Space (Plotting)
-
-Proof of Space is a cryptographic technique where provers show that they allocate unused hard drive space for storage space. In order to be used as a consensus method, Proof of Space must be tied to Proof of Time. PoT ensures that block times have consistency in the time between them and increases the overall security of the blockchain.
-
-Proof of time is implemented by a Verifiable Delay Function that takes a certain amount of time to compute, but is very fast to verify. The key idea of a VDF is that they require sequential computation, and since having many parallel machines does not yield any benefit, electricity waste is minimized.
-
-The operation of combining space and time verification makes up to be the proof-of-capacity protocol. This two-step process is also known as plotting. This consensus technique is currently used by [Chia](https://www.chia.net/), and is still considered as a proof of work method by the vast majority of the crypto community.
 
 ## Staking
 
