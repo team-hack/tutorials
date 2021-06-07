@@ -19,7 +19,7 @@ Verifying the transactions that are stored on the blockchain is usually done by 
 - Proof of Work PoW
 - Proof of Stake PoS
 - Mixed combination of PoW and PoS
-- Proof of Space [PoSpace](https://www.chia.net/) *In my opinion, Proof of Space as used by Chia Coin would go under PoW Consensus Mechanisms.*
+- Proof of Capacity [PoC](https://www.chia.net/) *In my opinion, Proof of Capacity as used by Chia Coin would go under PoW Consensus Mechanisms.*
 
 ### Proof of Work
 
@@ -76,3 +76,65 @@ Sometimes the CPU algorhitm solving capabilities are bolstered by configuring bl
 A5A
 ### GPU Mining
 
+At the beginning of the blockchain era CPU mining was the only option to mine cryptocurrencies and was done using Satoshi’s original mining software that was builti in the QT wallet or by running a set of [python](https://github.com/team-hack/tutorials/blob/main/Why%20Python.md) commands in the terminal.
+
+Due to the nature of their architecture, GPUs are more effective for intricacies that can be solved utilizing graphics processing. Any graphics card you pick comes ready to solve complex rendering equations out of the box.
+
+By running a custom software on your device, you can configure your graphics card to think that it's running a rendering equation, while in fact it's running a bidirectional reflectance distribution function.
+
+This is what makes Graphics cards efficient at solving complex algorithms necessary for cryptocurrency mining. It's practically the same reason that makes graphics cards good at rendering games on your computer screen.
+
+The cryptocurrencies and algorhitms that are configured to run repetitive tasks, rather than the ability to rapidly switch to different tasks, as in the case with CPU mining.
+The algorhitms that are configured far heavier on the ability to do repetitive work are easily susceptible to being overtaken by **A**pplication **S**pecific **I**ntegrated **C**ircuits or ASIC for short.
+
+#### GPU Mineable Algorhitms
+
+### ASIC Mining
+
+In 2013 ASIC miners overtook the Bitcoin Mining scene causing many miners to switch their no longer profitable graphics cards to Scrypt-based “altcoins” such as Litecoin and Dogecoin. This didn't last long, as Scrypt ASIC miners were introduced within a year.
+
+ASIC miners are built strictly for mining and are considered one of the most efficient types of mining chipsets to date. For example, a single ASIC machine is as powerfull as several hundred GPUs.
+
+There are many different types of ASIC miners, differentiating by the algorhitm they are specifically built to solve. An ASIC built for solving SHA-256 processes connot be used for anything else.
+
+As we all know, Bitcoin's blockchain is secured by the SHA-256 algorhitm. Since the first introduction of a SHA-256 ASIC miner in 2013, there have been 13 new generations of mining equipment that are 1500 times more powerfull than the first gen.
+
+The old generation ASIC miners are quickly decommissioned and become unprofitable really fast. People that used to mine Bitcoin a year or more ago with their ASICs are now either disposing them or reconfiguring to mine other SHA-256 encrypted coins on different blockchains.
+
+These did cost a lot of money to be acquired and owners tend to run those to the point of having them break down, and then disposing them. This is somewhat of an answer to why blockchains like the one of [StrongHands](https://www.stronghands.info/), coins with practically no value, are still among the most secure networks in the blockchain realm.
+
+#### Algorhitms for ASIC mining
+
+### Proof Of Space (Plotting)
+
+Proof of Space is a cryptographic technique where provers show that they allocate unused hard drive space for storage space. In order to be used as a consensus method, Proof of Space must be tied to Proof of Time. PoT ensures that block times have consistency in the time between them and increases the overall security of the blockchain.
+
+Proof of time is implemented by a Verifiable Delay Function that takes a certain amount of time to compute, but is very fast to verify. The key idea of a VDF is that they require sequential computation, and since having many parallel machines does not yield any benefit, electricity waste is minimized.
+
+The operation of combining space and time verification makes up to be the proof-of-capacity protocol. This two-step process is also known as plotting. This consensus technique is currently used by [Chia](https://www.chia.net/), and is still considered as a proof of work method by the vast majority of the crypto community.
+
+## Staking
+
+Staking is almost as profitable as the mining or trading of cryptos, and it comes without risk. All you will need to do is to buy and hold some coins to get added to the mining pool.
+
+Staking doesn't require special computing power or a device that is extra capable of crunching algorhitms. As it evolves on a different consensus mechanism than mining and Proof of Work, staking is more frequently used on inflatory blockchains, or chains that don't have a limit on the number of coins that can be used on that blockchain.
+
+Because there is no competition on who will mint the next block on the blockchain, there aren't any rewards to be delivered based on the transactions that are facilitated on the network, however, there is a fixed reward per block for the user that created the new block.
+
+Staking is considered as the crypto way for rich to get richer since you have to buy and hold extensive amount of coins in your wallet in order to earn rewards. Some stakable assets come with locked periods during which you cannot access your staked assets. Tron and Cosmos would be examples of this.
+
+Running a validator node to stake a cryptocurrency involves technical know-how to ensure that there are no disruptions in the staking process. Nodes need to have 100% uptime to ensure that they maximize staking returns.
+
+What’s more, in case a validator node (mistakenly) misbehaves, you could incur penalties on your return or losing your investment completely.
+
+# Summary
+
+To summarize, a blockchain is a decentralized digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain.
+
+The distributors that keep a copy of the blockchain, have devices configured to crunch messages in the algorhitm of the chain, and are contributing to the security of that chain are called miners.
+
+They are rewarded with new coins for each block they've helped get secure based on the number of shares or interactions or votes they submitted to veriify the contents of the block. In some blockchains, miners also earn a percentage of each transaction that is sent through the blockchain.
+
+Blockchains that don't require extensive computing power to secure it's network depend on staking as a consensus method.
+
+The data stored on the blockchain is permanent and cannot be edited. The blockchain as technology has extended out of the typical transaction ledger application.
