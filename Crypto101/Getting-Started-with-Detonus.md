@@ -1,9 +1,9 @@
 # Getting Started with Detonus
 
-Hey everyone, we get a lot of questions about [DETONUS] (https://detonus.com/). I thought I'd make a resource that will cover the basics. Detonus is basically a fork of Ethereum with some adjustments to the Ethash, to provide GPU and ASIC mining resistance. With that being said, it is one of the most appealing CPU mineable projects at the moment. 
+Hey everyone, we get a lot of questions about [DETONUS](https://detonus.com/). I thought I'd make a resource that will cover the basics. Detonus is basically a fork of Ethereum with some adjustments to the Ethash, to provide GPU and ASIC mining resistance. With that being said, it is one of the most appealing CPU mineable projects at the moment. 
 
 ### Downloading Wallet
-Detonus currently uses the Goland Implementation of the Blockchain which is command based standalone client software. The wallet client can be downloaded from the [Detonus v1.1.2-stable release.] (https://github.com/detonus-project/go-detonus/releases/tag/v1.1.2-stable)
+Detonus currently uses the Goland Implementation of the Blockchain which is command based standalone client software. The wallet client can be downloaded from the [Detonus v1.1.2-stable release.](https://github.com/detonus-project/go-detonus/releases/tag/v1.1.2-stable)
 Once you've downloaded the appropriate client software to your OS, unzip/untar the archive to your desired location.
 
 ### Running the Wallet
@@ -101,7 +101,8 @@ Between the brackets where it says YOUR_ADDRESS, input your public address. Betw
 In a test, we sent a value of 1000000 to determine how much DT it will transact.
 ```eth.sendTransaction({from: "0x542e54933509b7a617a5e85baceeb42dae22986e",to: "0xd598d864d87264c6686de16155f14574aefe5d90", value: "1000000"})```
 The sender ```0x542e54933509b7a617a5e85baceeb42dae22986e``` sent to ```0xd598d864d87264c6686de16155f14574aefe5d90``` a total of 0.01 DT.
-[Here is the transaction on the Explorer.] (https://explorer.detonus.com/tx/0x68fe23b89dceeaea0a1ae9f58d84a2c5c9f6c9489a779e76d7c9cabc6e53a973)
+
+[Here is the transaction on the Explorer.](https://explorer.detonus.com/tx/0x68fe23b89dceeaea0a1ae9f58d84a2c5c9f6c9489a779e76d7c9cabc6e53a973)
 To calculate values of transaction you need to know the number of denominations of Detonus. Detonus has **8** .00000000 decimal points. That is why the value of 1 million got ended up being displayed as a 0.01 DT transaction.  
 
 If you found this beginners' guide to Detonus, you can share it with a friend who might benefit from it and/or support me by donating some Detonus to ```0x596FBEB926a98eC1ebCD0e2f554EFDe909E696D7```
