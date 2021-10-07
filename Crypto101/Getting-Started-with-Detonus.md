@@ -50,14 +50,15 @@ Now enter the password you created earlier.
 
 Your wallet will now start looking for peers to sync with the blockchain. In case it fails to connect to the peers by itself, please use one of the 2 methods below to add static peers to your wallet.
 
+
+
+**Automatic:** ```--discovery.dns ""```
 **Temporary:** ```admin.addPeer("")```
 
-**Permanent:** ```--discovery.dns ""```
-
-You will now need to enter the peer IDs between the brackets **""** on either one of those methods.
+You will now need to enter the peer IDs between the brackets **("")** on the add Peer method.
 
 - Peer list that I am currently using:
-- 
+ 
 ```enode://cb5431669114e9797ddc4d17c1da64e9806f92030868e6d1c14b4467c94073b3fe84909071c633cac179b09c8dabdd484704fbd20755369c5435d7396fa2a33f@65.21.193.162:30303```
 ```enode://d834762aa2569d238a882f6066df93e1d6ea362b21baa1ba98303d68ea91b824fc91c8a3b00e803144318c09e2562aedd2809fed4cb30dc3acff3ceccf7803de@194.156.98.125:30303```
 ```enode://bae927dedfdf38206edf00a8527578e24913d55192da780272fb2b02fffb60181bd9262f7445a7c661fa2c11255a7e169cd64bab088b06ca086d0d2dc5be9737@185.87.151.155:30303```
